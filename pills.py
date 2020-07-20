@@ -1,11 +1,4 @@
-# USAGE
-# python pills.py --mode train
-# python pills.py --mode investigate
-# python pills.py --mode predict --image examples/pills_01.jpg
-# python pills.py --mode predict --image examples/pills_01.jpg \
-# 	--weights logs/pills20181018T0624/mask_rcnn_pills_0015.h5
-
-# import the necessary packages
+# import packages
 from mrcnn.config import Config
 from mrcnn import model as modellib
 from mrcnn import visualize
