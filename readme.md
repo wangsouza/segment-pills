@@ -19,10 +19,10 @@
 
 
 ## Investigate
-```python pilss.py --mode investigate```
+```python pills.py --mode investigate```
 
 ## Train
-```python pilss.py --mode train```
+```python pills.py --mode train```
 
 ## Predict
 ```python pills.py --mode predict --image examples/pills_01.jpg --weights logs/pills20200717T1421/mask_rcnn_pills_0010.h5```
